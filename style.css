@@ -1,0 +1,120 @@
+#home {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-image: url('https://static.zerochan.net/Rem.%28Re%3AZero%29.full.3392064.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-position: center;
+}
+
+#Sexy {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-image: url('https://i.pinimg.com/originals/20/98/4f/20984fb2afaed2c4fa2781574f92b0f9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-position: center;
+}
+
+#Evil {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-image: url('https://img2.joyreactor.cc/pics/post/Re-Zero-Kara-Hajimeru-Isekai-Seikatsu-Anime-Rem-%28re-zero%29-hanayome-3349167.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-position: center;
+}
+
+#Cute {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-image: url('https://i.pinimg.com/originals/1f/d5/57/1fd55792f2a53656719a03b104e6fad9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-position: center;
+}
+
+#Hentai {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-image: url('https://images.scrolller.com/yocto/god-damn-rem-re-zero-97ptayaz28-608x1080.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    opacity: 0.8;
+}
+
+h2 {
+    color: #FF1493;
+}
+
+#CuteRem1 {
+    height: 200px;
+    width: 250px;
+}
+
+#CuteRem2 {
+    height: 200px;
+    width: 300px;
+}
+
+#CuteRem3 {
+    height: 200px;
+    width: 150px;
+}
+
+#CuteRem4 {
+    height: 200px;
+    width: 200px;
+}
+
+img {
+    height: 200px;
+    opacity: 0.95;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#div1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+#EvilRem1 {
+    height: 200px;
+
+}
+
+#EvilRem2 {
+    height: 200px;
+    
+}
+
+#EvilRem3 {
+    height: 200px;
+    
+}
+
+#EvilRem4 {
+    height: 200px;
+    
+}
+
+li {
+    color: #FF1493;
+    font-weight: 1000;
+}
+
+#div2 {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.center {
+    text-align: center;
+}
