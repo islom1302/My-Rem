@@ -10,40 +10,69 @@
 
 #Sexy {
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    background-image: url('https://i.pinimg.com/originals/20/98/4f/20984fb2afaed2c4fa2781574f92b0f9.jpg');
+    background-image: url('https://img.goodfon.ru/original/3072x1920/6/e2/anime-girl-sexy-blue-hair-short-hair-blue-eyes-rem-re-zero-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: skyblue;
     background-position: center;
+    background-attachment: fixed;
+}
+
+#Sexy > div {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #Evil {
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    background-image: url('https://img2.joyreactor.cc/pics/post/Re-Zero-Kara-Hajimeru-Isekai-Seikatsu-Anime-Rem-%28re-zero%29-hanayome-3349167.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: skyblue;
     background-position: center;
-    display: inline-flex;
-    flex-direction: row;
+    background-attachment: fixed;
+    background-image: url('https://i.ytimg.com/vi/bOTMmVqz_y4/maxresdefault.jpg');
 }
 
 #Cute {
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    background-image: url('https://i.pinimg.com/originals/1f/d5/57/1fd55792f2a53656719a03b104e6fad9.png');
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/011/256/308/large/nithya-kalyan-rem-watermarked-4.jpg?1528642462');
+    background-color: skyblue;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: skyblue;
     background-position: center;
+    background-attachment: fixed;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #FF1493;
+    text-align: center;
+}
+
+.hover:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.hover {
+    color: #FF1493;
+    text-decoration: none;
 }
 
 #Hentai {
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    background-image: url('https://images.scrolller.com/yocto/god-damn-rem-re-zero-97ptayaz28-608x1080.webp');
+    background-image: url('https://img10.reactor.cc/pics/post/Rem-%28re-zero%29-Re-Zero-Kara-Hajimeru-Isekai-Seikatsu-Anime-Anime-Ero-6106112.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: skyblue;
     background-position: center;
+    background-attachment: fixed;
+}
+
+#Hentai > div {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -83,28 +112,12 @@ img {
 }
 
 #div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     padding: 10px;
     margin: 10px;
-}
-
-#EvilRem1 {
-    height: 200px;
-
-}
-
-#EvilRem2 {
-    height: 200px;
-    
-}
-
-#EvilRem3 {
-    height: 200px;
-    
-}
-
-#EvilRem4 {
-    height: 200px;
-    
 }
 
 li {
@@ -113,9 +126,10 @@ li {
 }
 
 #div2 {
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .center {
@@ -124,6 +138,12 @@ li {
 
 li {
     list-style: none;
+}
+
+.color {
+    color: #FF1493;
+    border: 2px solid #FF69B4;
+    border-radius: 10px;
 }
 
 #main {
@@ -141,5 +161,28 @@ li {
 @media (max-width: 430px) {
     #home {
         background-image: url('./assets/images/CuteRem3.jpg');
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #Cute {
+        background-image: url(//w.wallha.com/ws/14/sZnINxqR.jpg);
+    }
+
+    #Evil {
+        background-image: url('./assets/images/EvilRem1.jpeg');
+    }
+
+    #Sexy {
+        background-image: url('https://i.pinimg.com/originals/20/98/4f/20984fb2afaed2c4fa2781574f92b0f9.jpg');
+    }
+
+    #Hentai {
+        background-image: url('https://images.scrolller.com/yocto/god-damn-rem-re-zero-97ptayaz28-608x1080.webp');
     }
 }
