@@ -43,11 +43,10 @@
     background-attachment: fixed;
 }
 
-footer {
+p {
     display: flex;
     justify-content: center;
     color: #FF1493;
-    text-align: center;
 }
 
 .hover:hover {
